@@ -7,10 +7,10 @@ import { createClient } from "@supabase/supabase-js";
 
 dotenv.config();
 
-const SUPABASE_URL = "@https://quzvazbyiokmoczuyqak.supabase.co";//process.env.SUPABASE_URL!;
+const SUPABASE_URL = "https://quzvazbyiokmoczuyqak.supabase.co";//process.env.SUPABASE_URL!;
 const SUPABASE_SERVICE_KEY = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InF1enZhemJ5aW9rbW9jenV5cWFrIiwicm9sZSI6ImFub24iLCJpYXQiOjE3NTUyMDAyOTEsImV4cCI6MjA3MDc3NjI5MX0.wZ3nG1j9z_88MVjNKxoGDUC41gMKBLLBSdIabgC1DaA";//process.env.SUPABASE_SERVICE_ROLE_KEY!;
 const PORT = Number(process.env.PORT || 4000);
-const ORIGINS = "@https://love-letter-game-green.vercel.app/";//process.env.ALLOWED_ORIGINS || "*";
+const ORIGINS = "https://love-letter-game-green.vercel.app/";//process.env.ALLOWED_ORIGINS || "*";
 
 if (!SUPABASE_URL || !SUPABASE_SERVICE_KEY) {
   console.error("Missing SUPABASE_URL or SUPABASE_SERVICE_ROLE_KEY in env.");
